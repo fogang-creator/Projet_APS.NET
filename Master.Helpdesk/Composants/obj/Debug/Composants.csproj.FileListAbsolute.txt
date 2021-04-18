@@ -1,0 +1,10 @@
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\bin\Debug\Composants.exe.config
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\bin\Debug\Composants.exe
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\bin\Debug\Composants.pdb
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.Properties.Resources.resources
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.UserControlConnexion.resources
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.csproj.GenerateResource.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.exe
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Composants\obj\Debug\Composants.pdb

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Metier.Domaine.Motif">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Motif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Personne">
+    <Position X="14.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAADAAAAAAAAACAAAAACAAAAAAAKAAAAAAAAA=</HashCode>
+      <FileName>Domaine\Personne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Ticket">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Categorie" Type="Metier.Domaine.Categorie" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="1.244" />
+        <Point X="3.403" Y="1.244" />
+        <Point X="3.403" Y="3.609" />
+        <Point X="2" Y="3.609" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Priorite" Type="Metier.Domaine.Priorite" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="2.049" />
+        <Point X="5.625" Y="2.049" />
+        <Point X="5.625" Y="7.811" />
+        <Point X="2" Y="7.811" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Statut" Type="Metier.Domaine.Statut" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="1.548" />
+        <Point X="4.68" Y="1.548" />
+        <Point X="4.68" Y="4.558" />
+        <Point X="3.32" Y="4.558" />
+        <Point X="3.32" Y="5.062" />
+        <Point X="2" Y="5.062" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Motif" Type="Metier.Domaine.Motif" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.375" Y="0.5" />
+        <Point X="4.762" Y="0.5" />
+        <Point X="4.762" Y="0.139" />
+        <Point X="3.488" Y="0.139" />
+        <Point X="3.488" Y="0.956" />
+        <Point X="2.25" Y="0.956" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TypeTicket" Type="Metier.Domaine.TypeTicket" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.125" Y="0.5" />
+        <Point X="7.125" Y="0.125" />
+        <Point X="15.625" Y="0.125" />
+        <Point X="15.625" Y="2.171" />
+        <Point X="17.406" Y="2.171" />
+        <Point X="17.406" Y="1.796" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAIAAEABAAQAAgAAAAAAAAAAAgAAAAAACAACBQIAA=</HashCode>
+      <FileName>Domaine\Ticket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Categorie" />
+      <Property Name="Priorite" />
+      <Property Name="Statut" />
+      <Property Name="Motif" />
+      <Property Name="TypeTicket" />
+      <Property Name="Application" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Metier.Domaine.Assistant">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <AssociationLine Name="Role" Type="Metier.Domaine.Role" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="3.564" />
+        <Point X="11.99" Y="3.564" />
+        <Point X="11.99" Y="6.269" />
+        <Point X="14" Y="6.269" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Personne" Type="Metier.Domaine.Personne" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.125" Y="4.43" />
+        <Point X="11.125" Y="5.426" />
+        <Point X="10.586" Y="5.426" />
+        <Point X="10.586" Y="7.151" />
+        <Point X="14.625" Y="7.151" />
+        <Point X="14.625" Y="8" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABBAAAEAAAAAAAEAAAABAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domaine\Assistant.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Role" />
+      <Property Name="Personne" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Metier.Domaine.Categorie">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Categorie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Niveau">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Niveau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Commentaire" Collapsed="true">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domaine\Commentaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Utilisateur">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <AssociationLine Name="Personne" Type="Metier.Domaine.Personne" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="7.832" />
+        <Point X="11.125" Y="7.832" />
+        <Point X="11.125" Y="8.81" />
+        <Point X="14.25" Y="8.81" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Domaine\Utilisateur.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profil" />
+      <Property Name="Personne" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Metier.Domaine.TypeTicket">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\TypeTicket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Statut" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Statut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Role">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Reponse">
+    <Position X="1.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Reponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Profil">
+    <Position X="14.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAAAA=</HashCode>
+      <FileName>Domaine\Profil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Priorite">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Priorite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.PieceJointe">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAACAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domaine\PieceJointe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Historique">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAEQAQAAAAAAAAAgAABAgAAAAAACAAAAAIAA=</HashCode>
+      <FileName>Domaine\Historique.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Application">
+    <Position X="7" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domaine\Application.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Metier.Domaine.Resolution">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Domaine\Resolution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

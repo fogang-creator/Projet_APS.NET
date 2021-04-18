@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Metier.Domaine.Ticket>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="margin-bottom:60px; margin-top: 50px; color:blue; font-weight: bold; text-align:center">Ajouter votre ticket</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="background-color:black; color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Libelle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Statut)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priorite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Motif)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Categorie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Application)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeTicket)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCreation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateResolution)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Libelle)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Statut)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Priorite)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Motif)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Categorie)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Application)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TypeTicket)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DateCreation)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DateResolution)
+    </td>
+
+
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.TicketID })
+    </td>
+    <td>
+        @Html.ActionLink("Details", "Details", new { id = item.TicketID })
+    </td>
+    <td>
+        @Html.ActionLink("Delete", "Delete", new { id = item.TicketID })
+    </td>
+</tr>
+}
+
+</table>

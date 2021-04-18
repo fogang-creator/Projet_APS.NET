@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Metier.Domaine.Personne>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="margin-bottom:60px; margin-top: 50px; color:blue; font-weight: bold; text-align: center;">  Ajouter les détails de la Personne </h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table"  style="background-color:black; color: white;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.information)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MotPasse)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telephone)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.information)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MotPasse)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telephone)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PersonneID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PersonneID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PersonneID })
+        </td>
+    </tr>
+}
+
+</table>

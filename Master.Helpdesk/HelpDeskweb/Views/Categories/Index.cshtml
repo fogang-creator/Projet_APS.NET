@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Metier.Domaine.Categorie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="margin-bottom:60px; margin-top: 50px; color:blue; font-weight: bold; text-align: center;">  Ajouter la catégorie de votre ticket </h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="background-color:black; color: white;">
+    <tr style="text-align:center">
+        <th >
+            @Html.DisplayNameFor(model => model.Libelle)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr style="background-color:black">
+    <td>
+        @Html.DisplayFor(modelItem => item.Libelle)
+    </td>
+    <td>
+        @Html.ActionLink("Modifier", "Edit", new { id = item.CategorieID })
+    </td>
+    <td>
+        @Html.ActionLink("Details", "Details", new { id = item.CategorieID })
+    </td>
+    <td>
+        @Html.ActionLink("Supprimer", "Delete", new { id = item.CategorieID })
+    </td>
+</tr>
+    }
+
+</table>

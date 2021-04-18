@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Metier.Domaine.Motif>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="margin-bottom:60px; margin-top: 50px; color:blue; font-weight: bold; text-align: center;">  Quel est le motif du ticket? </h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table"  style="background-color:black; color: white;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Libelle)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Libelle)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.motifID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.motifID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.motifID })
+        </td>
+    </tr>
+}
+
+</table>

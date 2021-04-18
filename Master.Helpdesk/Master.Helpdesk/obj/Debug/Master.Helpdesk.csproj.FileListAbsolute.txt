@@ -1,0 +1,17 @@
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\MasterCCI2021.sqlite
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\Master.Helpdesk.exe.config
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\Master.Helpdesk.exe
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\Master.Helpdesk.pdb
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\EntityFramework.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\System.Data.SQLite.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\EntityFramework.xml
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\bin\Debug\System.Data.SQLite.xml
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\obj\Debug\Master.Helpdesk.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\obj\Debug\Master.Helpdesk.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\obj\Debug\Master.Helpdesk.csproj.CopyComplete
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\obj\Debug\Master.Helpdesk.exe
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Master.Helpdesk\obj\Debug\Master.Helpdesk.pdb

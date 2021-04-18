@@ -1,0 +1,15 @@
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\Metier.dll.config
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\Metier.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\Metier.pdb
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\EntityFramework.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\EntityFramework.xml
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.csproj.CopyComplete
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.dll
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.pdb
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.csprojAssemblyReference.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.csproj.GenerateResource.cache
+C:\Users\Utilisateur\source\repos\Master.Helpdesk\Metier\obj\Debug\Metier.Migrations.InitialCreate.resources
